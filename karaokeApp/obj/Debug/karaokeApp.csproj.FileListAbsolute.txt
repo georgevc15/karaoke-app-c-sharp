@@ -1,0 +1,1 @@
+C:\xampp\htdocs\c#\karaokeApp\karaokeApp\bin\Debug\karaokeApp.exe.config

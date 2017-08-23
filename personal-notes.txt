@@ -1,0 +1,6 @@
+echo "# karaoke-app-c-sharp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/georgevc15/karaoke-app-c-sharp.git
+git push -u origin master

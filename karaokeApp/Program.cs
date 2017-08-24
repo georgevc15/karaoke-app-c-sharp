@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using karaokeApp;
 
 namespace KaraokeApp
 {
@@ -36,7 +37,7 @@ namespace KaraokeApp
                     var fileName = songs[song] + ".txt";
                     Console.WriteLine(fileName);
 
-                if(!File.Exists(fileName) {
+                if(!File.Exists(fileName)) {
                     Console.WriteLine("File not found, Try again");
                     continue;
                 }
@@ -45,7 +46,7 @@ namespace KaraokeApp
                 Console.WriteLine("=================================");
                 foreach(var line in lines)
                 {
-
+                    Singer.WriteLine(line);
                 }
                 Console.WriteLine("=================================");
             }

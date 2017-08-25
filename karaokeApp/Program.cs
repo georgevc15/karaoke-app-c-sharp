@@ -34,10 +34,9 @@ namespace KaraokeApp
                         continue;
                     }
                     song--;
-                    var fileName = songs[song] + ".txt";
-                    Console.WriteLine(fileName);
+                    var fileName = @"c:\xampp\htdocs\c#\karaokeApp\" + songs[song] + ".txt";
 
-                if(!File.Exists(fileName)) {
+                if (!File.Exists(fileName)) {
                     Console.WriteLine("File not found, Try again");
                     continue;
                 }

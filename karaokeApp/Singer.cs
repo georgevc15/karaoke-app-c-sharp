@@ -15,7 +15,7 @@ namespace karaokeApp
             var speed = time / line.Length;
             foreach(var letter in line.ToCharArray())
             {
-                Console.WriteLine(letter);
+                Console.Write(letter);
                 System.Threading.Thread.Sleep(speed);
             }
             Console.WriteLine("");
